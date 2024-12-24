@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'myapp/styles.css' %}">
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Connecting with recruiters and AI enthusiasts!</p>
+            
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/data506/" target="_blank" class="linkedin-link">
+                <img src="{% static 'myapp/linkedin-icon.png' %}" alt="LinkedIn Icon" class="icon">
+                Visit my LinkedIn
+            </a>
+
+            <br> <!-- Forces a new line -->
+            
+            <!-- GitHub Link -->
+            <a href="https://github.com/Data506?tab=repositories" target="_blank" class="github-link">
+                <img src="{% static 'myapp/github-icon.png' %}" alt="GitHub Icon" class="icon">
+                Visit my GitHub
+            </a>
+        </div>
+    </div>
+</body>
+</html>

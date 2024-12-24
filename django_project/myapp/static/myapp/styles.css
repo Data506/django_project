@@ -1,0 +1,56 @@
+/* Reset and base styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Background styling */
+.background {
+    background-image: url('/static/myapp/background2.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Content container */
+.content {
+    background: rgba(0, 0, 0, 0.6); /* Translucent dark background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Common link styles (LinkedIn, GitHub) */
+.linkedin-link,
+.github-link {
+    display: inline-flex;       /* Keep icon and text on the same line */
+    align-items: center;        /* Vertically center the icon and text */
+    text-decoration: none;      /* Remove the underline */
+    font-size: 18px;            /* Adjust text size */
+    margin-top: 10px;           /* Space above each link */
+    margin-right: 16px;         /* Optional space to separate multiple links */
+}
+
+/* LinkedIn-specific styling */
+.linkedin-link {
+    color: #0077B5;  /* LinkedIn brand color */
+}
+
+/* GitHub-specific styling (if you have a GitHub link) */
+.github-link {
+    color: #ffffff;  /* You can pick a different color if you want */
+}
+
+/* Icon styling */
+.icon {
+    width: 24px;               /* Icon width */
+    height: 24px;              /* Icon height */
+    margin-right: 8px;         /* Space between icon and text */
+    vertical-align: middle;    /* Align icon with text vertically */
+}
