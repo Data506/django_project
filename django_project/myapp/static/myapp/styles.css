@@ -27,7 +27,6 @@ html, body {
 }
 
 /* Common link styles (LinkedIn, GitHub) */
-.linkedin-link,
 .github-link {
     display: inline-flex;       /* Keep icon and text on the same line */
     align-items: center;        /* Vertically center the icon and text */
@@ -35,16 +34,29 @@ html, body {
     font-size: 18px;            /* Adjust text size */
     margin-top: 10px;           /* Space above each link */
     margin-right: 16px;         /* Optional space to separate multiple links */
+    color: white;
 }
 
 /* LinkedIn-specific styling */
 .linkedin-link {
-    color: #0077B5;  /* LinkedIn brand color */
+    display: inline-flex;
+    align-items: center;
+    /* Example color: a bright, noticeable blue */
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 16px;
 }
 
-/* GitHub-specific styling (if you have a GitHub link) */
-.github-link {
-    color: #ffffff;  /* You can pick a different color if you want */
+/* About Me link: include an image */
+.about-link {
+    display: inline-flex;
+    align-items: center;
+    color: white;  /* pick any color you like */
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 /* Icon styling */
